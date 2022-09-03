@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Pasta Planet🍜</title>
+  </head>
+  <body>
+    <!-- Signing in -->
+    <div class="sign-up-page">
+      <div>
+        <div class="Sign-login-welcome"><h1>Welcome to Pasta Planet🍜</h1></div>
+        <a href="/indexafterlogin.html">go to</a>
+      </div>
+
+      <div class="sign-up-form open">
+        <form name="mySign-up" class="sign-up">
+          <h4>Please fill your correct deets🖋</h4>
+          <div>
+            <p class="input-name inc">Name</p>
+            <!-- <p class="usernameSNerror">Please type in your full name</p> -->
+            <input
+              type="text"
+              placeholder="Jon Doe"
+              class="username_for sign_up"
+              name="user"
+              required
+            />
+          </div>
+          <div>
+            <p class="input-name">Phone number</p>
+            <input
+              id="phone"
+              type="number"
+              placeholder="080xxxxxxxx"
+              maxlength="11"
+              class="phone_number_for sign_up"
+              required
+            />
+          </div>
+          <div>
+            <p class="input-name">Email addy</p>
+            <input
+              type="email"
+              placeholder="example@ymail.com"
+              class="email_address_for sign_up"
+              required
+            />
+          </div>
+
+          <div>
+            <p class="input-name">Password</p>
+            <input
+              type="password"
+              placeholder="Enter password"
+              maxlength="8"
+              class="password-for sign_up"
+              required
+            />
+          </div>
+
+          <button
+            id="sign_up"
+            class="sign-up_btn btn"
+            placeholder="Submit"
+            value="Submit"
+          >
+            Submit
+          </button>
+          <p class="or_login">
+            Already have an account?
+            <a class="login-link" href="#">Sign in</a>
+          </p>
+        </form>
+      </div>
+      <!-- logging in -->
+      <div id="login" class="login-page closed">
+        <p>We've missed you! Welcome back!✨</p>
+
+        <form class="login inc">
+          <div>
+            <p class="input-name">Email addy</p>
+            <input
+              type="text"
+              placeholder="Email address/Username"
+              class="username_for_login_up sign_up"
+            />
+          </div>
+
+          <div>
+            <p class="input-name">Password</p>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              maxlength="8"
+              class="Login__password password-for sign_up"
+            />
+          </div>
+          <div>
+            <!-- <p>Login</p> -->
+            <button
+              placeholder="login"
+              name="loginBtn"
+              id="loginBtne"
+              class="login__btn btn"
+            >
+              login
+            </button>
+          </div>
+        </form>
+
+        <!-- <button class="login__btn btn">
+          <p>Login</p>
+          <ion-icon class="Sign-up-icon" name="restaurant-outline"></ion-icon>
+        </button> -->
+      </div>
+
+      <p>
+        <ion-icon class="chat-icon" name="chatbubble-ellipses-outline">
+        </ion-icon>
+        Need help? Chat here or don't...
+      </p>
+    </div>
+
+    <!--After successful login logging in -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

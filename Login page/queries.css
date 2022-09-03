@@ -1,0 +1,315 @@
+/* media queries do not respond to font size rem setting
+i.e 1rem=1em=16px */
+
+@media (max-width: 144em) {
+  .Pasta-imgs {
+    width: 60vh;
+    height: 46vh;
+    margin-left: 55rem;
+  }
+  .header1 {
+    font-size: 8rem;
+  }
+  .footie {
+    display: block;
+    top: 94%;
+    font-size: 3rem;
+  }
+  .Pasta-imgs img {
+    margin: 0.8rem;
+    height: 35rem;
+  }
+  .Pasta-imgs img:last-child {
+    width: 32rem;
+  }
+}
+@media (max-width: 125em) {
+  .header1 {
+    margin-left: 30rem;
+  }
+  .Pasta-imgs {
+    width: 50vh;
+    height: 36vh;
+    margin-left: 50rem;
+    padding: 5rem;
+  }
+}
+@media (max-width: 118em) {
+  .header1 {
+    margin-left: 25rem;
+  }
+  .Pasta-imgs {
+    width: 50vh;
+    height: 36vh;
+    margin-left: 40rem;
+  }
+}
+@media (max-width: 109em) {
+  .header1 {
+    margin-left: 20rem;
+    font-size: 7rem;
+  }
+  .Pasta-imgs {
+    width: 40vh;
+    height: 26vh;
+    margin-left: 27rem;
+  }
+}
+/* ********************** */
+/* Below 1500px */
+/* ********************** */
+@media (max-width: 94em) {
+  .sign-up-form {
+    top: 20%;
+    right: 32%;
+  }
+  .or_login {
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    text-align: center;
+  }
+  .header1 {
+    font-size: 6rem;
+  }
+  @media (max-width: 94em) {
+    .login-page {
+      right: 35%;
+    }
+  }
+  @media (max-width: 81em) {
+    .Pasta-imgs {
+      margin-left: 15rem;
+    }
+    .header1 {
+      margin-left: 12rem;
+    }
+  }
+
+  @media (max-width: 75em) {
+    .header1 {
+      font-size: 5.5rem;
+      padding-top: 1rem;
+    }
+    .Pasta-imgs {
+      margin-top: 2rem;
+    }
+    .Pasta-imgs img {
+      margin: 0.5rem;
+      height: 30rem;
+    }
+    .Pasta-imgs img:last-child {
+      width: 32rem;
+    }
+  }
+  @media (max-width: 72em) {
+    .sign-up-form {
+      top: 23%;
+    }
+    .login-page {
+      right: 32%;
+      top: 27%;
+      padding: 5rem;
+    }
+    .header1 {
+      font-size: 4.5rem;
+    }
+    .Pasta-imgs img {
+      margin: 0.5rem;
+      height: 25rem;
+    }
+    .Pasta-imgs img:last-child {
+      width: 25rem;
+    }
+    .footie {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 58em) {
+    .sign-up-form {
+      top: 24%;
+      right: 30%;
+    }
+    .Sign-login-welcome {
+      display: flex;
+      margin-left: 10rem;
+      text-align: center;
+    }
+    .login-page {
+      right: 25%;
+      top: 28%;
+      padding: 4.5rem;
+    }
+    .header1 {
+      font-size: 4rem;
+    }
+    .Pasta-imgs img {
+      margin: 0.5rem;
+      height: 20rem;
+    }
+    .Pasta-imgs img:last-child {
+      width: 20rem;
+    }
+  }
+
+  @media (max-width: 53em) {
+    .header1 {
+      font-size: 3.5rem;
+    }
+    .Pasta-imgs {
+      margin-left: 12rem;
+    }
+  }
+
+  @media (max-width: 48em) {
+    .Sign-login-welcome {
+      font-size: 2.2rem;
+      margin-top: 1.5rem;
+    }
+    .sign-up-form {
+      top: 24%;
+      right: 25%;
+      padding: 2rem;
+      font-size: 2rem;
+    }
+    input {
+      width: 100%;
+    }
+    .sign-up-page {
+      background-size: 100% 50%;
+    }
+    .inc {
+      margin-top: 3rem;
+    }
+    h4 {
+      margin-top: 3rem;
+    }
+    .login-page {
+      right: 20%;
+      top: 28%;
+      padding: 4.5rem;
+    }
+    .header1 {
+      font-size: 3.2rem;
+      padding-top: 2.5rem;
+      margin-left: 6rem;
+    }
+    .Pasta-imgs {
+      margin-left: 5rem;
+    }
+  }
+  @media (max-width: 42em) {
+    .header1 {
+      font-size: 2.5rem;
+    }
+    .Pasta-imgs img {
+      margin: 0.5rem;
+      height: 15rem;
+      margin-left: 1rem;
+    }
+    .Pasta-imgs img:last-child {
+      width: 15rem;
+    }
+    .Sign-login-welcome {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+    .sign-up-form {
+      top: 24%;
+      right: 25%;
+      padding: 2rem;
+      font-size: 1.5rem;
+    }
+  }
+  .login-page {
+    right: 20%;
+    top: 20%;
+    padding: 2rem;
+  }
+    input {
+      width: 85%;
+    }
+    .inc {
+      margin-top: 2rem;
+    }
+    .btn {
+      font-size: 1.5rem;
+    }
+    .password-for {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 40em) {
+    html {
+      font-size: 60%;
+    }
+    .login-page {
+      right: 20%;
+      padding: 2rem;
+    }
+  }
+  @media (max-width: 36em) {
+    html {
+      font-size: 51%;
+    }
+    .sign-up-page {
+      background-size: 100% 50%;
+    }
+    .Sign-login-welcome {
+      font-size: 2rem;
+    }
+    .sign-up-form {
+      top: 24%;
+      right: 25%;
+      padding: 2rem;
+      font-size: 2rem;
+    }
+    input {
+      font-size: 1.5rem;
+    }
+    h1 {
+      margin-top: 4rem;
+    }
+
+    .login-page {
+      right: 25%;
+      padding: 3rem;
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 28em) {
+    .header1 {
+      font-size: 2rem;
+    }
+    .Pasta-imgs img {
+      margin: 0.5rem;
+      height: 10rem;
+      margin-left: 0.5rem;
+    }
+    .Pasta-imgs img:last-child {
+      width: 10rem;
+    }
+    .footie {
+      font-size: 1.5rem;
+    }
+    h4 {
+      margin-top: 2rem;
+    }
+    .Sign-login-welcome {
+      font-size: 1.5rem;
+    }
+    .sign-up-form {
+      top: 24%;
+      right: 25%;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+    }
+    .login-page {
+      right: 20%;
+      top: 20%;
+      padding: 3rem;
+      font-size: 1.5rem;
+    }
+  }
+}
